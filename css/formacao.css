@@ -1,0 +1,59 @@
+/* =========================================
+   SEÇÃO TECNOLOGIAS E FORMAÇÃO (Estilo Modelo)
+   ========================================= */
+
+/* Card apenas para Formação */
+.education-card {
+    background-color: var(--bg-card); /* #111827 */
+    border: 1px solid var(--border-color); /* #1F2937 */
+    border-radius: 16px;
+}
+
+/* Pílulas de Tecnologias idênticas ao print */
+.tech-badge {
+    background-color: #1a2234;
+    color: #e5e7eb;
+    font-size: 0.9rem;
+    font-weight: 500;
+    border-radius: 10px;
+    border: 1px solid #2a3447;
+    transition: all 0.2s ease;
+}
+
+.tech-badge:hover {
+    border-color: var(--primary-blue);
+    transform: translateY(-2px);
+}
+
+/* Ícones coloridos dentro das pílulas de tecnologia */
+.tech-badge i {
+    width: 22px;
+    height: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    font-size: 0.85rem;
+    color: #fff !important;
+}
+
+.tech-icon-php { background-color: #6366f1; }
+.tech-icon-laravel { background-color: #ef4444; }
+.tech-icon-postgres { background-color: #3b82f6; }
+.tech-icon-sybase { background-color: #0ea5e9; }
+.tech-icon-mysql { background-color: #f59e0b; }
+.tech-icon-python { background-color: #3b82f6; }
+.tech-icon-pandas { background-color: #8b5cf6; }
+.tech-icon-sklearn { background-color: #f97316; }
+.tech-icon-js { background-color: #eab308; }
+.tech-icon-html { background-color: #f97316; }
+.tech-icon-css { background-color: #2563eb; }
+.tech-icon-bootstrap { background-color: #7c3aed; }
+.tech-icon-git { background-color: #f97316; }
+.tech-icon-github { background-color: #24292e; }
+
+/* Itens de Formação: ícone + texto à esquerda */
+.education-item {
+    display: flex;
+    align-items: center;
+}

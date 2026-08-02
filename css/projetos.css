@@ -1,0 +1,48 @@
+/* =========================================
+   SEÇÃO PROJETOS EM DESTAQUE
+   ========================================= */
+
+.project-card {
+    background-color: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-radius: 20px;
+    overflow: hidden;
+    height: 100%;
+}
+
+/* Container da Imagem (Mobile primeiro) */
+.project-img-container {
+    width: 100%;
+    aspect-ratio: 16 / 9; /* proporção padrão de screenshot de tela */
+    border-bottom: 1px solid var(--border-color);
+}
+
+/* Imagem preenchendo o espaço */
+.project-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center center;
+}
+
+/* Badges de Tecnologias (Ex: Laravel, PHP) */
+.project-tag {
+    background-color: #1F2937; /* Cinza escuro específico do seu layout */
+    color: var(--text-muted);
+    font-size: 0.8rem;
+    padding: 6px 12px;
+    border-radius: 8px;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-weight: 500;
+}
+
+/* O pequeno detalhe azul dentro de algumas badges (como no Laravel/PHP do seu modelo) */
+.tag-dot {
+    display: inline-block;
+    width: 6px;
+    height: 12px;
+    background-color: var(--primary-blue);
+    border-radius: 2px;
+}

@@ -1,0 +1,67 @@
+/* =========================================
+   SEÇÃO EXPERIÊNCIA (Linha do Tempo)
+   ========================================= */
+
+.timeline-container {
+    position: relative;
+    /* A linha vertical cinza escuro */
+    border-left: 2px solid var(--border-color);
+    padding-left: 32px; /* Afasta o conteúdo da linha */
+    margin-left: 12px;  /* Dá um pequeno respiro no canto da tela */
+}
+
+.timeline-item {
+    position: relative;
+    margin-bottom: 3.5rem; /* Espaço entre uma experiência e outra */
+}
+
+/* Tira a margem do último item para não sobrar espaço morto */
+.timeline-item:last-child {
+    margin-bottom: 0;
+}
+
+/* Bolinhas Azuis na linha do tempo */
+.timeline-dot {
+    position: absolute;
+    /* Cálculo exato para centralizar a bolinha na linha de 2px */
+    left: -39px;
+    top: 4px; /* Alinha com a primeira linha de texto (a data) */
+    width: 14px;
+    height: 14px;
+    background-color: var(--primary-blue);
+    border-radius: 50%;
+    /* O box-shadow cria a "borda" invisível usando a cor de fundo do site */
+    box-shadow: 0 0 0 6px var(--bg-main);
+}
+
+/* =========================================
+   CARD DA EXPERIÊNCIA (Bordas Arredondadas)
+   ========================================= */
+.experiencia-card {
+    background-color: var(--bg-card); /* Fundo #111827 */
+    border: 1px solid var(--border-color); /* Linha sutil #1F2937 */
+    border-radius: 24px; /* O arredondamento igual ao 'Sobre mim' */
+}
+
+/* =========================================
+   CAIXA DO LOGO UEPG (Estrutura Limpa)
+   ========================================= */
+.company-logo-wrapper {
+    width: 48px;
+    height: 48px;
+    flex: 0 0 48px; /* Trava exatamente em 48px e não deixa esticar */
+    background-color: #fff;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 6px;
+    overflow: hidden;
+}
+
+.company-logo {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+}

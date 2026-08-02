@@ -1,0 +1,12 @@
+/* =========================================
+   SEÇÃO CONTATO
+   ========================================= */
+.contato-card {
+    background-color: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-radius: 16px;
+}
+
+.contato-subtitle {
+    max-width: 500px;
+}

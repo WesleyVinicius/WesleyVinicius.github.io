@@ -1,0 +1,41 @@
+/* =========================================
+   UTILITÁRIOS DE TEXTO
+   Substituem os estilos inline repetidos pelo
+   HTML (font-size / line-height). Editar aqui
+   muda o tamanho em todas as seções de uma vez.
+   ========================================= */
+
+.text-eyebrow {
+    font-size: 0.85rem;
+    letter-spacing: 2px;
+}
+
+.hero-title {
+    font-size: 3.5rem;
+    line-height: 1.1;
+}
+
+.hero-subtitle {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    max-width: 90%;
+}
+
+.text-body-md {
+    font-size: 1.05rem;
+    line-height: 1.6;
+}
+
+.text-body-sm {
+    font-size: 0.95rem;
+    line-height: 1.6;
+}
+
+.text-body-xs {
+    font-size: 0.9rem;
+}
+
+.btn-rounded {
+    border-radius: 8px;
+    font-weight: 500;
+}

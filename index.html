@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wesley Vinicius Fernandes | Desenvolvedor Backend PHP e Laravel</title>
+    <link rel="icon" type="image/x-icon" href="img/logo.jpeg">
+
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap 5 CSS (CDN) -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Bootstrap Icons (CDN) -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <!-- Seu CSS Customizado -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ==========================================
+     NAVBAR
+     ========================================== -->
+<nav class="navbar navbar-expand-lg py-3 custom-navbar">
+    <div class="container">
+        <a class="navbar-brand d-flex align-items-center text-white fw-bold" href="#">
+            <img src="img/logo.png" alt="Logo Wesley Vinicius Fernandes" class="navbar-logo me-2">
+            Wesley Vinicius
+        </a>
+        <button class="navbar-toggler border-0 shadow-none" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNav">
+            <i class="bi bi-list text-white fs-2"></i>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav gap-3">
+                <li class="nav-item"><a class="nav-link text-white" href="#inicio">Início</a></li>
+                <li class="nav-item"><a class="nav-link text-white-50" href="#sobre">Sobre</a></li>
+                <li class="nav-item"><a class="nav-link text-white-50" href="#projetos">Projetos</a></li>
+                <li class="nav-item"><a class="nav-link text-white-50" href="#experiencia">Experiência</a></li>
+                <li class="nav-item"><a class="nav-link text-white-50" href="#formacao">Formação</a></li>
+                <li class="nav-item"><a class="nav-link text-white-50" href="#contato">Contato</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- ==========================================
+     HERO
+     ========================================== -->
+<section id="inicio" class="hero-section">
+    <div class="container hero-container">
+        <div class="row">
+            <div class="col-lg-7">
+
+                <p class="text-primary fw-bold mb-2 text-eyebrow">OLÁ, EU SOU</p>
+
+                <h1 class="fw-bold text-white mb-3 hero-title">
+                    Wesley Vinicius <br> Fernandes
+                </h1>
+
+                <h2 class="h4 text-white mb-4 fw-normal">
+                    <span class="text-primary fw-semibold">Desenvolvedor</span> Backend <span class="text-primary">PHP | Laravel</span>
+                </h2>
+
+                <p class="text-muted mb-4 hero-subtitle">
+                    Desenvolvedor de software com experiência em PHP, Laravel, PostgreSQL e integração de sistemas.
+                    Focado em criar soluções robustas, escaláveis e de alta qualidade.
+                </p>
+
+                <div class="d-flex flex-wrap gap-3 mb-5">
+                    <a href="#projetos" class="btn btn-primary d-flex align-items-center gap-2 px-4 py-2 btn-rounded">
+                        <i class="bi bi-window-stack"></i> Ver Projetos
+                    </a>
+                    <a href="pdf/cv.pdf" target="_blank"
+                       class="btn btn-outline-custom d-flex align-items-center gap-2 px-4 py-2 btn-rounded">
+                        <i class="bi bi-download"></i> Baixar Currículo
+                    </a>
+                </div>
+
+                <div class="d-flex flex-wrap gap-4 social-links">
+                    <a href="https://github.com/WesleyVinicius" target="_blank"
+                       class="d-flex align-items-center gap-2 text-decoration-none text-white">
+                        <i class="bi bi-github fs-5"></i> GitHub
+                    </a>
+                    <a href="https://linkedin.com/in/wesleyviniciusf" target="_blank"
+                       class="d-flex align-items-center gap-2 text-decoration-none text-white">
+                        <i class="bi bi-linkedin fs-5"></i> LinkedIn
+                    </a>
+                    <a href="mailto:wesleyviniciusfernandes@gmail.com"
+                       class="d-flex align-items-center gap-2 text-decoration-none text-white">
+                        <i class="bi bi-envelope fs-5"></i> E-mail
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ==========================================
+     SOBRE MIM
+     ========================================== -->
+<section id="sobre" class="py-5">
+    <div class="container">
+        <div class="about-card p-4 p-lg-5">
+            <div class="row align-items-center">
+
+                <!-- Foto -->
+                <div class="col-lg-3 text-center mb-4 mb-lg-0">
+                    <img src="img/perfil.jpg" alt="Foto de Wesley" class="rounded-circle profile-img shadow-sm">
+                </div>
+
+                <!-- Texto -->
+                <div class="col-lg-5 mb-4 mb-lg-0 pe-lg-4">
+                    <h2 class="h3 fw-bold mb-3 text-white">Sobre mim</h2>
+                    <p class="text-muted mb-4 text-body-md">
+                        Sou desenvolvedor backend com 4 anos de experiência em desenvolvimento de sistemas com
+                        PHP e Laravel. Atuo na modernização de sistemas legados, criação de APIs REST e integração de
+                        sistemas. Mestre em Computação Aplicada pela UEPG, com interesse também em automação e análise
+                        de dados.
+                    </p>
+                    <a href="#experiencia"
+                       class="btn btn-outline-custom d-inline-flex align-items-center gap-2 px-4 py-2 btn-rounded">
+                        <i class="bi bi-person"></i> Mais sobre mim
+                    </a>
+                </div>
+
+                <!-- Informações -->
+                <div class="col-lg-4 ps-lg-4">
+                    <div class="d-flex flex-column gap-4">
+
+                        <div class="d-flex align-items-start gap-3">
+                            <i class="bi bi-geo-alt text-primary fs-4 mt-1"></i>
+                            <div>
+                                <p class="mb-0 text-white fw-semibold">Cidade</p>
+                                <small class="text-muted">Ponta Grossa - PR</small>
+                            </div>
+                        </div>
+
+                        <div class="d-flex align-items-start gap-3">
+                            <i class="bi bi-envelope text-primary fs-4 mt-1"></i>
+                            <div>
+                                <p class="mb-0 text-white fw-semibold">E-mail</p>
+                                <small class="text-muted">wesleyviniciusfernandes@gmail.com</small>
+                            </div>
+                        </div>
+
+                        <div class="d-flex align-items-start gap-3">
+                            <i class="bi bi-laptop text-primary fs-4 mt-1"></i>
+                            <div>
+                                <p class="mb-0 text-white fw-semibold">Disponibilidade</p>
+                                <small class="text-muted">Presencial, Remoto ou Híbrido</small>
+                            </div>
+                        </div>
+
+                        <div class="d-flex align-items-start gap-3">
+                            <i class="bi bi-globe text-primary fs-4 mt-1"></i>
+                            <div>
+                                <p class="mb-0 text-white fw-semibold">Idiomas</p>
+                                <small class="text-muted d-block">Português (nativo)</small>
+                                <small class="text-muted d-block">Inglês (intermediário)</small>
+                                <small class="text-muted d-block">Espanhol (intermediário)</small>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ==========================================
+     PROJETOS EM DESTAQUE
+     ========================================== -->
+<section id="projetos" class="py-5">
+    <div class="container">
+
+        <div class="d-flex justify-content-between align-items-end mb-4">
+            <h2 class="h3 fw-bold text-white mb-0">Projetos em destaque</h2>
+            <a href="https://github.com/WesleyVinicius" target="_blank"
+               class="text-primary text-decoration-none fw-semibold d-none d-md-block">
+                Ver todos os projetos <i class="bi bi-arrow-right"></i>
+            </a>
+        </div>
+
+        <div class="row g-4">
+
+            <!-- PROJETO 1: Sistema de Sebo -->
+            <div class="col-xl-6">
+                <div class="project-card d-flex flex-column">
+                    <div class="project-img-container">
+                        <img src="img/projeto-sebo.jpg" alt="Sistema de Sebo (Reler)" class="project-img">
+                    </div>
+                    <div class="p-4 d-flex flex-column justify-content-center w-100">
+                        <h3 class="h5 fw-bold text-white mb-3">Sistema de Sebo (Reler)</h3>
+                        <p class="text-muted mb-4 text-body-sm">
+                            Projeto pessoal em desenvolvimento para estudo de Laravel: sistema web de gestão de sebo com
+                            catálogo de livros, controle de compras e vendas, autenticação de usuários e
+                            painel administrativo.
+                        </p>
+                        <div class="d-flex flex-wrap gap-2 mb-4">
+                            <span class="project-tag"><span class="tag-dot"></span>Laravel</span>
+                            <span class="project-tag"><span class="tag-dot"></span>PHP</span>
+                            <span class="project-tag"><span class="tag-dot"></span>PostgreSQL</span>
+                            <span class="project-tag"><span class="tag-dot"></span>Bootstrap</span>
+                            <span class="project-tag"><span class="tag-dot"></span>JavaScript</span>
+                        </div>
+                        <a href="https://github.com/WesleyVinicius/sebo-reler" target="_blank"
+                           class="text-primary text-decoration-none fw-semibold mt-auto d-flex align-items-center gap-2">
+                            <i class="bi bi-github fs-5"></i> Ver projeto no GitHub <i class="bi bi-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- PROJETO 3: Framework AgroMeta -->
+            <div class="col-xl-6">
+                <div class="project-card d-flex flex-column">
+                    <div class="project-img-container">
+                        <img src="img/projeto-agrometa.png" alt="API de integração de metadados agrometeorológicos" class="project-img">
+                    </div>
+                    <div class="p-4 d-flex flex-column justify-content-center w-100">
+                        <h3 class="h5 fw-bold text-white mb-3">AgroMeta API</h3>
+                        <p class="text-muted mb-4 text-body-sm">
+                            API REST desenvolvida no mestrado em Computação Aplicada para integração semântica de metadados agrometeorológicos,
+                            promovendo interoperabilidade entre diferentes padrões de dados.
+                        </p>
+                        <div class="d-flex flex-wrap gap-2 mb-4">
+                            <span class="project-tag"><span class="tag-dot"></span>Python</span>
+                            <span class="project-tag"><span class="tag-dot"></span>FastAPI</span>
+                            <span class="project-tag"><span class="tag-dot"></span>RDF</span>
+                            <span class="project-tag"><span class="tag-dot"></span> SPARQL</span>
+                            <span class="project-tag"><span class="tag-dot"></span>OWL</span>
+                        </div>
+                        <a href="https://github.com/WesleyVinicius/framework-metadados" target="_blank"
+                           class="text-primary text-decoration-none fw-semibold mt-auto d-flex align-items-center gap-2">
+                            <i class="bi bi-github fs-5"></i> Ver projeto no GitHub <i class="bi bi-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="text-end mt-4 d-md-none">
+            <a href="https://github.com/seu-usuario" target="_blank"
+               class="text-primary text-decoration-none fw-semibold">
+                Ver todos os projetos <i class="bi bi-arrow-right"></i>
+            </a>
+        </div>
+
+    </div>
+</section>
+
+<!-- ==========================================
+     EXPERIÊNCIA PROFISSIONAL
+     ========================================== -->
+<section id="experiencia" class="py-5">
+    <div class="container">
+
+        <div class="experiencia-card p-4 p-lg-5">
+
+            <div class="d-flex justify-content-between align-items-end mb-5">
+                <h2 class="h3 fw-bold text-white mb-0">Experiência profissional</h2>
+                <a href="https://linkedin.com/in/wesleyviniciusf" target="_blank"
+                   class="text-primary text-decoration-none fw-semibold d-none d-md-block">
+                    Ver todas as experiências <i class="bi bi-arrow-right"></i>
+                </a>
+            </div>
+
+            <div class="timeline-container">
+
+                <!-- Analista e Desenvolvedor de Software -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="row">
+                        <div class="col-md-3 mb-3 mb-md-0">
+                            <p class="text-primary fw-semibold mb-1">Mai 2024 - Mai 2026</p>
+                            <span class="text-muted text-body-xs">2 anos e 1 mês</span>
+                        </div>
+                        <div class="col-md-9">
+                            <div class="d-flex align-items-start gap-3">
+                                <div class="company-logo-wrapper">
+                                    <img src="img/uepg-logo.png" alt="Logo UEPG" class="company-logo">
+                                </div>
+                                <div>
+                                    <h3 class="h5 fw-bold text-white mb-1">Analista e Desenvolvedor de Software</h3>
+                                    <p class="text-muted fw-semibold mb-2 text-body-sm">Universidade
+                                        Estadual de Ponta Grossa (UEPG)</p>
+                                    <p class="text-muted mb-0 text-body-sm">
+                                        Desenvolvimento e manutenção de sistemas com PHP/Laravel, modernização de
+                                        aplicações legadas (PHP 5.6 para 8+), integração com bancos de dados PostgreSQL
+                                        e Sybase, criação de rotinas agendadas e APIs.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Analista de Suporte -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="row">
+                        <div class="col-md-3 mb-3 mb-md-0">
+                            <p class="text-primary fw-semibold mb-1">Dez 2022 - Abr 2024</p>
+                            <span class="text-muted text-body-xs">1 ano e 5 meses</span>
+                        </div>
+                        <div class="col-md-9">
+                            <div class="d-flex align-items-start gap-3">
+                                <div class="company-logo-wrapper">
+                                    <img src="img/uepg-logo.png" alt="Logo UEPG" class="company-logo">
+                                </div>
+                                <div>
+                                    <h3 class="h5 fw-bold text-white mb-1">Analista de Suporte</h3>
+                                    <p class="text-muted fw-semibold mb-2 text-body-sm">Universidade
+                                        Estadual de Ponta Grossa (UEPG)</p>
+                                    <p class="text-muted mb-0 text-body-sm">
+                                        Suporte a sistemas institucionais, atendimento aos usuários e manutenção de
+                                        aplicações web.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Desenvolvedor de Software Trainee -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="row">
+                        <div class="col-md-3 mb-3 mb-md-0">
+                            <p class="text-primary fw-semibold mb-1">Jul 2020 - Jun 2022</p>
+                            <span class="text-muted text-body-xs">1 ano e 11 meses</span>
+                        </div>
+                        <div class="col-md-9">
+                            <div class="d-flex align-items-start gap-3">
+                                <div class="company-logo-wrapper">
+                                    <img src="img/uepg-logo.png" alt="Logo UEPG" class="company-logo">
+                                </div>
+                                <div>
+                                    <h3 class="h5 fw-bold text-white mb-1">Desenvolvedor de Software Trainee</h3>
+                                    <p class="text-muted fw-semibold mb-2 text-body-sm">Universidade
+                                        Estadual de Ponta Grossa (UEPG)</p>
+                                    <p class="text-muted mb-0 text-body-sm">
+                                        Desenvolvimento de sistemas web, correção de bugs e implementação de novas
+                                        funcionalidades.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="text-end mt-4 d-md-none">
+                <a href="https://linkedin.com/in/wesleyviniciusf" target="_blank"
+                   class="text-primary text-decoration-none fw-semibold">
+                    Ver todas as experiências <i class="bi bi-arrow-right"></i>
+                </a>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+<!-- ==========================================
+     TECNOLOGIAS E FORMAÇÃO
+     ========================================== -->
+<section id="formacao" class="py-5">
+    <div class="container">
+        <div class="row g-4 align-items-start">
+
+            <!-- Tecnologias -->
+            <div class="col-lg-6">
+                <h2 class="h3 fw-bold text-white mb-4">Tecnologias</h2>
+
+                <div class="d-flex flex-wrap gap-3">
+                    <span class="tech-badge d-flex align-items-center gap-2 px-3 py-2">
+                        <i class="bi bi-code-slash tech-icon-php"></i> PHP
+                    </span>
+                    <span class="tech-badge d-flex align-items-center gap-2 px-3 py-2">
+                        <i class="bi bi-layers tech-icon-laravel"></i> Laravel
+                    </span>
+                    <span class="tech-badge d-flex align-items-center gap-2 px-3 py-2">
+                        <i class="bi bi-database tech-icon-postgres"></i> PostgreSQL
+                    </span>
+                    <span class="tech-badge d-flex align-items-center gap-2 px-3 py-2">
+                        <i class="bi bi-server tech-icon-sybase"></i> Sybase
+                    </span>
+                    <span class="tech-badge d-flex align-items-center gap-2 px-3 py-2">
+                        <i class="bi bi-server tech-icon-mysql"></i> MySQL
+                    </span>
+                    <span class="tech-badge d-flex align-items-center gap-2 px-3 py-2">
+                        <i class="bi bi-filetype-py tech-icon-python"></i> Python
+                    </span>
+                    <span class="tech-badge d-flex align-items-center gap-2 px-3 py-2">
+                        <i class="bi bi-table tech-icon-pandas"></i> Pandas
+                    </span>
+                    <span class="tech-badge d-flex align-items-center gap-2 px-3 py-2">
+                        <i class="bi bi-diagram-3 tech-icon-sklearn"></i> Scikit-learn
+                    </span>
+                    <span class="tech-badge d-flex align-items-center gap-2 px-3 py-2">
+                        <i class="bi bi-filetype-js tech-icon-js"></i> JavaScript
+                    </span>
+                    <span class="tech-badge d-flex align-items-center gap-2 px-3 py-2">
+                        <i class="bi bi-filetype-html tech-icon-html"></i> HTML
+                    </span>
+                    <span class="tech-badge d-flex align-items-center gap-2 px-3 py-2">
+                        <i class="bi bi-filetype-css tech-icon-css"></i> CSS
+                    </span>
+                    <span class="tech-badge d-flex align-items-center gap-2 px-3 py-2">
+                        <i class="bi bi-bootstrap tech-icon-bootstrap"></i> Bootstrap
+                    </span>
+                    <span class="tech-badge d-flex align-items-center gap-2 px-3 py-2">
+                        <i class="bi bi-git tech-icon-git"></i> Git
+                    </span>
+                    <span class="tech-badge d-flex align-items-center gap-2 px-3 py-2">
+                        <i class="bi bi-github tech-icon-github"></i> GitHub
+                    </span>
+                </div>
+            </div>
+
+            <!-- Formação -->
+            <div class="col-lg-6">
+                <h2 class="h3 fw-bold text-white mb-4">Formação</h2>
+
+                <div class="education-card p-4">
+                    <div class="d-flex flex-column gap-4">
+
+                        <!-- Mestrado -->
+                        <div class="education-item">
+                            <div class="d-flex align-items-start gap-3">
+                                <i class="bi bi-mortarboard text-primary fs-3 mt-1"></i>
+                                <div>
+                                    <h3 class="h5 fw-bold text-white mb-1">Mestrado em Computação Aplicada</h3>
+                                    <p class="text-muted mb-1 text-body-sm">Universidade Estadual de
+                                        Ponta Grossa (UEPG)</p>
+                                    <span class="text-primary fw-semibold text-body-xs">2024-2026</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <hr class="border-secondary opacity-25 my-1">
+
+                        <!-- Especialização -->
+                        <div class="education-item">
+                            <div class="d-flex align-items-start gap-3">
+                                <i class="bi bi-mortarboard text-primary fs-3 mt-1"></i>
+                                <div>
+                                    <h3 class="h5 fw-bold text-white mb-1">Especialização em Desenvolvimento Web e
+                                        Mobile</h3>
+                                    <p class="text-muted mb-1 text-body-sm">IF Sudeste MG</p>
+                                    <span class="text-primary fw-semibold text-body-xs">2026-atualmente</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <hr class="border-secondary opacity-25 my-1">
+
+                        <!-- Graduação -->
+                        <div class="education-item">
+                            <div class="d-flex align-items-start gap-3">
+                                <i class="bi bi-mortarboard text-primary fs-3 mt-1"></i>
+                                <div>
+                                    <h3 class="h5 fw-bold text-white mb-1">Graduação em Tecnologia em Análise e
+                                        Desenvolvimento de Sistemas</h3>
+                                    <p class="text-muted mb-1 text-body-sm">IFPR - Campus Irati</p>
+                                    <span class="text-primary fw-semibold text-body-xs">2015-2017</span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- ==========================================
+     CONTATO
+     ========================================== -->
+<section id="contato" class="py-5">
+    <div class="container">
+        <div class="contato-card p-4 p-lg-5 text-center">
+
+            <h2 class="h3 fw-bold text-white mb-3">Vamos conversar?</h2>
+            <p class="text-muted mb-4 text-body-md mx-auto contato-subtitle">
+                Estou disponível para novas oportunidades como desenvolvedor backend.
+                Entre em contato pelos canais abaixo.
+            </p>
+
+            <div class="d-flex flex-wrap justify-content-center gap-3 mb-4">
+                <a href="mailto:wesleyviniciusfernandes@gmail.com"
+                   class="btn btn-primary d-flex align-items-center gap-2 px-4 py-2 btn-rounded">
+                    <i class="bi bi-envelope"></i> Enviar E-mail
+                </a>
+                <a href="https://wa.me/5542999468407" target="_blank"
+                   class="btn btn-outline-custom d-flex align-items-center gap-2 px-4 py-2 btn-rounded">
+                    <i class="bi bi-whatsapp"></i> WhatsApp
+                </a>
+            </div>
+
+            <div class="d-flex flex-wrap justify-content-center gap-4 social-links">
+                <a href="https://github.com/WesleyVinicius" target="_blank"
+                   class="d-flex align-items-center gap-2 text-decoration-none text-white">
+                    <i class="bi bi-github fs-5"></i> GitHub
+                </a>
+                <a href="https://linkedin.com/in/wesleyviniciusf" target="_blank"
+                   class="d-flex align-items-center gap-2 text-decoration-none text-white">
+                    <i class="bi bi-linkedin fs-5"></i> LinkedIn
+                </a>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- ==========================================
+     RODAPÉ
+     ========================================== -->
+<footer class="py-4 text-center border-top border-secondary opacity-75 mt-4">
+    <div class="container">
+        <p class="text-muted mb-0 text-body-sm">
+            &copy; 2026 Wesley Vinicius Fernandes. Todos os direitos reservados.
+        </p>
+    </div>
+</footer>
+
+<!-- Bootstrap 5 JS Bundle (com Popper para menu mobile) -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
